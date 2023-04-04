@@ -1,0 +1,228 @@
+.Signup_main_container {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 100vh;
+  margin: 0px auto;
+
+  justify-content: center;
+  align-items: center;
+  align-items: center;
+  background-color: rgb(202, 226, 228);
+}
+
+.input_field_container {
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+}
+.sign_up {
+  margin: auto;
+  margin-top: 30px;
+  padding: 0px;
+  font-size: 30px;
+  color: Green;
+}
+.registration_form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  width: fit-content;
+  height: fit-content;
+}
+.email_container,
+.password_container,
+.name_container,
+.confirm_password_container {
+  width: 100%;
+  margin: 20px auto;
+}
+.password_container {
+  width: 700px;
+}
+label {
+  font-weight: bold;
+  font-size: 20px;
+}
+#password,
+#name,
+#confirm_password,
+#email {
+  margin-left: 20px;
+  width: 300px;
+  height: 40px;
+  border-radius: 10px;
+  font-size: 20px;
+}
+#name {
+  margin-left: 132px;
+}
+#email {
+  margin-left: 138px;
+}
+#password {
+  margin-left: 100px;
+}
+#confirm_password {
+  margin-left: 20px;
+}
+.openEye,
+.closeEye {
+  font-size: 25px;
+}
+.openEye,
+.closeEye:hover {
+  cursor: pointer;
+  color: black;
+}
+.openEye:active,
+.closeEye:active {
+  color: blue;
+}
+
+.register_button {
+  width: 150px;
+  height: 50px;
+  margin: 5px auto;
+  border-radius: 8px;
+  color: white;
+  font-size: 25px;
+  border: none;
+  background-color: rgb(73, 73, 245);
+}
+
+.register_button:hover {
+  cursor: pointer;
+  background-color: rgb(73, 73, 245);
+}
+
+.register_button:active {
+  cursor: pointer;
+  background-color: blue;
+}
+
+.passValidError {
+  box-sizing: border-box;
+  font-size: 20px;
+  color: red;
+  margin: auto;
+}
+.tAndC_container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.tAndC_checkbox {
+  width: 20px;
+  height: 20px;
+}
+.tAndC_line_container {
+  display: flex;
+}
+.tAndC_line {
+  display: flex;
+  width: 100%;
+}
+.tAndC_link {
+  margin: auto 5px;
+  font-weight: bold;
+  color: blue;
+}
+.tAndC_checkbox,
+.tAndC_link:hover {
+  cursor: pointer;
+  text-decoration: underline;
+}
+.signin_container {
+  display: flex;
+  margin: 10px auto;
+}
+.already_Account {
+  margin: 10px auto;
+  color: black;
+}
+.already_Account_click_here {
+  margin: 10px auto;
+  color: green;
+  font-weight: bold;
+}
+.already_Account_click_here:hover {
+  cursor: pointer;
+  text-decoration: underline;
+}
+.signin_container a {
+  text-decoration: none;
+}
+.loader {
+  position: absolute;
+  /* bottom: 20px; */
+  height: 200px;
+  z-index: 9;
+}
+
+@media only screen and (max-width: 700px) {
+  .Signup_main_container {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100vh;
+    margin: 0px auto;
+    margin-top: 100px;
+    justify-content: center;
+    align-items: center;
+    align-items: center;
+    background-color: rgb(202, 226, 228);
+  }
+  .registration_form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    width: 100%;
+    height: fit-content;
+    padding: 5px;
+    box-sizing: border-box;
+  }
+  .email_container,
+  .password_container,
+  .name_container,
+  .confirm_password_container {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin: 10px auto;
+  }
+  #password,
+  #name,
+  #confirm_password,
+  #email {
+    margin-left: 20px;
+    width: 100%;
+    height: 40px;
+    border-radius: 10px;
+    font-size: 20px;
+  }
+  #name {
+    margin-left: 0px;
+  }
+  #email {
+    margin-left: 0px;
+  }
+  #password {
+    margin-left: 0px;
+  }
+  #confirm_password {
+    margin-left: 0px;
+  }
+  .openEye,
+  .closeEye {
+    font-size: 25px;
+    position: relative;
+    left: 220px;
+    bottom: 35px;
+    width: fit-content;
+  }
+} ;
