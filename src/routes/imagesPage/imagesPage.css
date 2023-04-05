@@ -312,4 +312,48 @@ input::placeholder {
     width: 100%;
     margin-top: 10px;
   }
+  .images_container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 70px;
+    height: 80px;
+    margin: 20px 40px;
+    margin-right: 35px;
+    border-radius: 10px;
+    background-color: rgba(152, 171, 176, 0.776);
+    box-shadow: 2px 2px 2px 0px rgb(145, 142, 142);
+    transition: 0.4s;
+  }
+  .Delete {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    text-align: center;
+    margin-left: 0px;
+    margin-top: 5px;
+    border-radius: 10px;
+    width: 30px;
+    height: 10px;
+    border: 2px solid red;
+    background-color: transparent;
+    color: rgba(255, 255, 255, 0.824);
+    font-size: 8px;
+    color: rgb(243, 9, 9);
+    transition: 0.4s;
+  }
+  .label {
+    position: absolute;
+    text-align: center;
+    background-color: rgba(8, 8, 8, 0.386);
+    margin: 0px auto;
+    margin-top: 60px;
+    margin-bottom: 5px;
+    color: white;
+    font-size: 8px;
+    border-radius: 10px;
+    padding: 2px;
+    transition: 0.4s;
+  }
 }
