@@ -6,7 +6,7 @@ function Header() {
       <header className="header_container">
         <div className="company_name_logo_container">
           <img src={"./imgs/logo.png"} className="logo_img" alt="img" />
-          <h1 className="recipe_app">Image Gallery</h1>
+          <h1 className="image_Gallery_app">Image Gallery</h1>
         </div>
       </header>
     </>

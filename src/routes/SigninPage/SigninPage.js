@@ -56,6 +56,7 @@ function SigninPage() {
           });
         } else {
           setTimeout(() => {
+            setLoader(false);
             toast.error("User Does Not Exist");
           });
         }
