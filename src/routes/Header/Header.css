@@ -3,7 +3,7 @@
   justify-content: center;
   width: 100%;
   margin: auto;
-  position: absolute;
+  position: relative;
   top: 0px;
   height: 100px;
 }
