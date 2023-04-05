@@ -304,3 +304,12 @@ input::placeholder {
   height: 200px;
   z-index: 9;
 }
+
+@media only screen and (max-width: 600px) {
+  .allimages_main_container {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin-top: 100px;
+  }
+}
